@@ -22,6 +22,7 @@
     font: 600 24px serif;
     color: #fff;
 }
+
 nav ul {
     display: flex;
     justify-content: space-between;
