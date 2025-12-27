@@ -1,0 +1,312 @@
+.header-bg-img {
+    background: url('../img/hero_1.jpg') center/cover;
+    height: 100vh;
+}
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+#all-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font: 600 24px serif;
+    color: #fff;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 32px;
+}
+nav a {
+    font: 500 14px arial;
+    color:rgba(255, 255, 255, 0.7);
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+nav a:hover {
+    color: white;
+}
+.button button {
+    font: 500 14px arial;
+    color: #fff;
+    padding: 6px 20px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background-color: transparent;
+    border-radius: 30px;
+}
+.button button:hover {
+    background-color: #fc8621;
+   border: 2px solid #fc8621;
+}
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+.header-content h1 {
+    font: 600 60px serif;
+    color: #fff;
+    margin: 0 0 48px;
+}
+.header-content p {
+    font: 500 16px arial;
+    text-transform: capitalize;
+    color: white;
+}
+ #all-section-1-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 0;
+ }
+.imgs img {
+    margin-left: 20px;
+    width: 300px;
+    height: 400px;  
+ }
+.img1{
+    clip-path: polygon(0 0, 100% 0, 99% 90%, 0 90%);
+}
+.img2 {
+    clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0 100%);
+}
+
+
+
+
+
+
+
+#all-section-2-title {
+    display: flex;
+    justify-content: space-between;
+    padding: 112px 0 40px;
+}
+.section-title span {
+    font: 500 18px arial;
+    color: #fc8621;
+    text-transform: uppercase;
+}
+.section-title h2 {
+    font: 600 46px serif;
+    color: black;
+    margin: 0 0 18px;
+}
+.section-title p {
+    font: 500 14px arial;
+    color: #212529;
+    margin: 0 0 16px;
+}
+.section-1-button button {
+    font: 500 16px arial;
+    background-color: #fc8621;
+    border: 1px solid #fc8621;
+    color:#fff ;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 48px 0;
+}
+.section-1-button button:hover {
+    background-color:#f69b4c;
+    border: 1px solid #f69b4c;
+}
+/* .section-2-icons {
+    display: flex;
+    align-items: center;   
+
+}
+.section2-icons i {
+    font-size: 50px;
+    color: #212529;
+}
+.section-2-icons i:hover {
+    color: #fc8621;
+    font-size: 60px;
+} */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 112px;
+}
+.card img {
+    width: 380px;
+    height: 500px;
+}
+.card h3 {
+    font: 600 28px serif;
+    margin: 24px 0 0;
+}
+.card p {
+    font: 500 14px arial;
+    color: #999;
+    margin: 8px 0 0;
+}
+
+
+
+
+
+
+
+
+.section-3-bg-color{
+    background-color: #f8f9fa;
+}
+#all-section-3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 112px 0;
+}
+.subheading {
+    font: 500 18px arial;
+    color: #fc8621;
+}
+.content-1 h2, .content-2 h2 {
+    font: 600 46px serif;
+    margin: 10px 0 48px;
+}
+.content-1 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin:0 0 20px;
+}
+.content-1 h3 {
+    font: 500 18px serif;
+    color: #fc8621;
+}
+.content-1 h4 {
+    font: 600 50px serif ;
+}
+.content-1 p {
+    font: 500 16px arial;
+    margin: 10px 0 15px;
+}
+.content-2 p {
+    font: 500 18px serif;
+    padding: 15px 8px;
+}
+.fa-solid {
+    font: 600 30px arial; 
+}
+#all-section-4-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.section-4-title {
+    padding: 112px 0;
+}
+.section-4-title h3 {
+    font: 500 20px arial;
+    color: #fc8621;
+    margin-bottom: 10px;
+}
+.section-4-title h2 {
+    font: 600 46px serif;
+    margin: 0 0 48px;
+}
+.section-4-cards img {
+    width: 300px;
+    height: 300px;
+}
+.section-4-card {
+    padding: 20px 20px 50px;
+}
+.date {
+    display: block;
+    font: 500 12px arial;
+    color: #212529;
+    margin-bottom: 5px;
+}
+.section-4-card a {
+    font: 600 16px serif;
+    color: black;
+    margin-bottom: 8px;
+    transition: .4s;
+}
+.section-4-card a:hover {
+    color: #fc8621;
+}
+.section-4-card p {
+    font: 500 14px arial;
+    color: #212529;
+    margin: 10px 0 16px 0;
+}
+.label {
+    font: 500 14px arial ;
+    color: #fc8621;
+    text-transform: capitalize;
+    transition: .4s;
+}
+.label:hover {
+    color: #9f4f09;
+}
+.section-5-bg-color {
+    background-color: #fc8621;
+}
+.section-5-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.section-5-title h3 {
+    font: 500 25px serif;
+    color: #fff;
+}
+.btn {
+    font: 500 16px arial;
+    color: #fff;
+    border: 1px solid ;
+    padding: 10px 30px ;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn:hover {
+    background-color: #fff;
+    color: #fc8621;
+    /* outline: none; */
+}
+#all-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+.footer-1 h3 ,.footer-links h3 {
+    font: 600 16px serif;
+    margin-bottom: 30px;
+}
+.footer-1 p {
+    font: 500 14px arial;
+    color: #888;
+    margin-bottom: 16px;
+}
+.footer-icons i {
+    font-size: 25px;
+    color: #777;
+}
+.footer-icons i:hover {
+    color: #fc8621;
+}
+.footer-links li {
+    margin-bottom: 15px;
+}
+.footer-links a {
+    font: 500 14px arial;
+    color: #777;  
+}
+.footer-copyRight {
+    font: 500 14px arial;
+    color: #888;
+    text-align: center;
+    padding-bottom: 70px;
+}
