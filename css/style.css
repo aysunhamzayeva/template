@@ -11,8 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 25px;
-};
-
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -22,7 +21,6 @@
     font: 600 24px serif;
     color: #fff;
 }
-
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -47,7 +45,7 @@ nav a:hover {
 }
 .button button:hover {
     background-color: #fc8621;
-   border: 2px solid #fc8621;
+    border: 2px solid #fc8621;
 }
 .header-content {
     display: flex;
@@ -81,13 +79,6 @@ nav a:hover {
 .img2 {
     clip-path: polygon(0 10%, 100% 10%, 100% 100%, 0 100%);
 }
-
-
-
-
-
-
-
 #all-section-2-title {
     display: flex;
     justify-content: space-between;
@@ -124,7 +115,6 @@ nav a:hover {
 /* .section-2-icons {
     display: flex;
     align-items: center;   
-
 }
 .section2-icons i {
     font-size: 50px;
